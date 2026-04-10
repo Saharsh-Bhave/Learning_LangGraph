@@ -1,0 +1,4 @@
+from IPython.display import image
+Image(workflow.get_graph().draw_mermaid_png())
+
+# Only works in Jupyter notebook.
